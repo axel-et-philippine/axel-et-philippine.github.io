@@ -9225,12 +9225,12 @@ return jQuery;
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
-        define(['jquery'], factory);
+        define(['outdated/085517775d2d77a80514f1c9914a0e8964a7b167/js/jquery'], factory);
     } else if (typeof exports === 'object') {
         // Node. Does not work with strict CommonJS, but
         // only CommonJS-like environments that support module.exports,
         // like Node.
-        module.exports = factory(require('jquery'));
+        module.exports = factory(require('outdated/085517775d2d77a80514f1c9914a0e8964a7b167/js/jquery'));
     } else {
         // Browser globals (root is window)
         root.lightbox = factory(root.jQuery);
