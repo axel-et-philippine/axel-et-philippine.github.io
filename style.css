@@ -39,8 +39,8 @@ a {
 }
 #menu li {
     display: inline;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
     font-family: Libre Caslon Display, serif;
     font-size: x-large;
     letter-spacing: 1px;
