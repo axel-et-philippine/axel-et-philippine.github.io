@@ -105,7 +105,7 @@ margin-top: 10px; /* Adjust as needed */
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     body {
     text-align: center;
     font-family: Libre Caslon Display, serif;
