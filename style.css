@@ -3,19 +3,19 @@ body {
     font-family: Libre Caslon Display, serif;
     /*font-family: "Georgia", serif;*/
     letter-spacing: 0.5px;
-    font-size: 20px;
+    font-size: x-large;
 }
 #header-1 {
-    font-size: 35px;
+    font-size: xxx-large;
     color: #cc003d;
 }
 #header-1-snell {
-    font-size: 40px;
+    font-size: xxx-large;
     color: #cc003d;
     font-family: "Snell Roundhand", serif;
 }
 #header-2 {
-    font-size: 25px;
+    font-size: x-large;
 }
 a {
     color: black; /* Change to your desired color */
@@ -42,7 +42,7 @@ a {
     margin-right: 50px;
     margin-left: 50px;
     font-family: Libre Caslon Display, serif;
-    font-size: 20px;
+    font-size: x-large;
     letter-spacing: 1px;
 }
 
@@ -80,7 +80,7 @@ margin-top: 10px; /* Adjust as needed */
     background-color: #cc003d; /* Button background color changed to black */
     color: white; /* Button text color changed to white */
     text-decoration: none; /* Removes underline */
-    font-size: 20px; /* Adjust font size as needed */
+    font-size: x-large; /* Adjust font size as needed */
     border-radius: 8px; /* Optional: for rounded corners */
     cursor: pointer; /* Changes cursor to indicate clickability */
 }
@@ -105,110 +105,111 @@ margin-top: 10px; /* Adjust as needed */
 }
 
 
-@media (max-width: 1300px) {
-    body {
-    text-align: center;
-    font-family: Libre Caslon Display, serif;
-    /*font-family: "Georgia", serif;*/
-    letter-spacing: 0.5px;
-    font-size: 26px;
-}
-#header-1 {
-    font-size: 41px;
-    color: #cc003d;
-}
-#header-1-snell {
-    font-size: 41px;
-    color: #cc003d;
-    font-family: "Snell Roundhand", serif;
-}
-#header-2 {
-    font-size: 31px;
-}
-a {
-    color: black; /* Change to your desired color */
-}
-#logo {
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-#tiny-img {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-#menu {
-    margin-bottom: 50px;
-    background-color: rgb(235,235,235);
-    padding: 6px 0;
-}
-#menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-#menu li {
-    display: inline;
-    margin-right: 50px;
-    margin-left: 50px;
-    font-family: Libre Caslon Display, serif;
-    font-size: 26px;
-    letter-spacing: 1px;
-}
-
-/* Style for normal link state */
-#menu a {
-    color: black; /* Change to your desired color */
-    text-decoration: none;
-}
-
-/* Style for hovered links */
-#menu a:hover {
-    color: #cc003d; /* Change to your desired hover color */
-}
-
-/*!* Style for visited links *!*/
-/*#menu a:visited {*/
-/*    color: black; !* Change to your desired visited link color *!*/
+/*@media (max-width: 1300px) {*/
+/*    body {*/
+/*    text-align: center;*/
+/*    font-family: Libre Caslon Display, serif;*/
+/*    !*font-family: "Georgia", serif;*!*/
+/*    letter-spacing: 0.5px;*/
+/*    font-size: 30px;*/
+/*}*/
+/*#header-1 {*/
+/*    font-size: 445px;*/
+/*    color: #cc003d;*/
+/*}*/
+/*#header-1-snell {*/
+/*    font-size: 50px;*/
+/*    color: #cc003d;*/
+/*    font-family: "Snell Roundhand", serif;*/
+/*}*/
+/*#header-2 {*/
+/*    font-size: 35px;*/
+/*}*/
+/*a {*/
+/*    color: black; !* Change to your desired color *!*/
+/*}*/
+/*#logo {*/
+/*    margin-top: 50px;*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*#tiny-img {*/
+/*    margin-top: 5px;*/
+/*    margin-bottom: 5px;*/
+/*}*/
+/*#menu {*/
+/*    margin-bottom: 20px;*/
+/*    background-color: rgb(235,235,235);*/
+/*    padding: 0px 0;*/
+/*    font-size: 50px;*/
+/*}*/
+/*#menu ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+/*#menu li {*/
+/*    display: inline;*/
+/*    margin-right: 50px;*/
+/*    margin-left: 50px;*/
+/*    font-family: Libre Caslon Display, serif;*/
+/*    font-size: 30px;*/
+/*    letter-spacing: 1px;*/
 /*}*/
 
-#banner {
-background-color: #cc003d; /* Set the background color to pink */
-height: 150px; /* Adjust the height as needed */
-width: 100%; /* Ensures it stretches across the full width */
-/* Add more styling as needed */
-}
+/*!* Style for normal link state *!*/
+/*#menu a {*/
+/*    color: black; !* Change to your desired color *!*/
+/*    text-decoration: none;*/
+/*}*/
 
-#rsvp-button {
-text-align: center;
-margin-top: 10px; /* Adjust as needed */
-}
+/*!* Style for hovered links *!*/
+/*#menu a:hover {*/
+/*    color: #cc003d; !* Change to your desired hover color *!*/
+/*}*/
 
-#rsvp-button a {
-    display: inline-block;
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #cc003d; /* Button background color changed to black */
-    color: white; /* Button text color changed to white */
-    text-decoration: none; /* Removes underline */
-    font-size: 26px; /* Adjust font size as needed */
-    border-radius: 8px; /* Optional: for rounded corners */
-    cursor: pointer; /* Changes cursor to indicate clickability */
-}
+/*!*!* Style for visited links *!*!*/
+/*!*#menu a:visited {*!*/
+/*!*    color: black; !* Change to your desired visited link color *!*!*/
+/*!*}*!*/
 
-#rsvp-button a:hover {
-    background-color: grey; /* Optional: color change on hover */
-}
+/*#banner {*/
+/*background-color: #cc003d; !* Set the background color to pink *!*/
+/*height: 150px; !* Adjust the height as needed *!*/
+/*width: 100%; !* Ensures it stretches across the full width *!*/
+/*!* Add more styling as needed *!*/
+/*}*/
 
-.container {
-    display: flex;
-    justify-content: center; /* Align columns to the center */
-}
+/*#rsvp-button {*/
+/*text-align: center;*/
+/*margin-top: 10px; !* Adjust as needed *!*/
+/*}*/
 
-.column {
-    flex: 0 0 40%; /* Each column is 30% of the container's width */
-    margin: 10px; /* Adjust margin as needed */
-}
+/*#rsvp-button a {*/
+/*    display: inline-block;*/
+/*    padding: 10px 20px; !* Adjust padding as needed *!*/
+/*    background-color: #cc003d; !* Button background color changed to black *!*/
+/*    color: white; !* Button text color changed to white *!*/
+/*    text-decoration: none; !* Removes underline *!*/
+/*    font-size: 30px; !* Adjust font size as needed *!*/
+/*    border-radius: 8px; !* Optional: for rounded corners *!*/
+/*    cursor: pointer; !* Changes cursor to indicate clickability *!*/
+/*}*/
 
-.column-3 {
-    flex: 0 0 25%; /* Each column is 30% of the container's width */
-    margin: 10px; /* Adjust margin as needed */
-}
-}
+/*#rsvp-button a:hover {*/
+/*    background-color: grey; !* Optional: color change on hover *!*/
+/*}*/
+
+/*.container {*/
+/*    display: flex;*/
+/*    justify-content: center; !* Align columns to the center *!*/
+/*}*/
+
+/*.column {*/
+/*    flex: 0 0 40%; !* Each column is 30% of the container's width *!*/
+/*    margin: 10px; !* Adjust margin as needed *!*/
+/*}*/
+
+/*.column-3 {*/
+/*    flex: 0 0 25%; !* Each column is 30% of the container's width *!*/
+/*    margin: 10px; !* Adjust margin as needed *!*/
+/*}*/
+/*}*/
